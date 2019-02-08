@@ -18,7 +18,7 @@ cliento = Twitter::REST::Client.new do |config|
 end
 
 
-#greet = %w[bonjour salut wesh yo coucou slt cc bjr]
+# greet = %w[bonjour salut wesh yo coucou slt cc bjr]
 greet = %w[hey hello hi 你好 hola greeting salut]
 
 # J'ai ete mentionne?
