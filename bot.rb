@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+#Faut que t'utilise des méthodes, Meddy.
+
 require 'twitter'
 require 'chatterbot/dsl'
 # Connection Twitter
@@ -23,14 +25,10 @@ greet = %w[hey hello hi 你好 hola greeting salut]
 
 # J'ai ete mentionne?
 client.filter(track: 'sedecima') do |tweet|
-  #  Voir si il y a une mention en direct :
   puts tweet.text
-  # ==========================================
   # Qui m'a envoye ce tweet?
   name = tweet.user.screen_name
-  # Quel est le contenu de ce tweet?
   mess = tweet.text
-  # Greet random
   rnd = ''
   # le bot lit le message
   read = mess.split(' ')
