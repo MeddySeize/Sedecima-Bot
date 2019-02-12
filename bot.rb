@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-#Faut que t'utilise des méthodes, Meddy.
+# Faut que t'utilise des méthodes, Meddy.
 
 require 'twitter'
 require 'chatterbot/dsl'
