@@ -3,7 +3,7 @@
 require 'wikipedia_wrapper'
 
 WikipediaWrapper.configure do |config|
-  config.lang = 'fr'
+  config.lang = 'en'
 end
 # Les phrases que le bot sait dire
 opi = ['I think that', 'i am not sure, but', 'I have no doubt that', 'I think that']
