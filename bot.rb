@@ -19,7 +19,6 @@ cliento = Twitter::REST::Client.new do |config|
   config.access_token_secret = 'VgZbRzQHRkcmoBv0kKLe2PuAjNEH6MUwWl9p9PCWLMXoZ'
 end
 
-
 # greet = %w[bonjour salut wesh yo coucou slt cc bjr]
 greet = %w[hey hello hi 你好 hola greeting salut]
 
